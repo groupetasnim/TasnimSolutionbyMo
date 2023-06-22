@@ -1,9 +1,8 @@
 /**
-* Template Name: Arsha
+* Template Name: tasnim Solution
 * Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+
+
 */
 
 /*--------------------------------------------------------------
@@ -115,7 +114,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(15, 12, 10, 0.9);
+  background: rgba(14, 5, 1, 0.9);
 }
 
 #header .logo {
@@ -166,7 +165,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  color: #12e912;
+  color: #e4f3e4;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -182,7 +181,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #22f345;
+  color: #0fee3f;
 }
 
 .navbar .getstarted,
@@ -198,7 +197,7 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #59dd0d;
+  color: #57da11;
   background: #eaedee;
 }
 
@@ -212,8 +211,8 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #1b1717;
-  box-shadow: 0px 0px 30px rgb(10, 255, 43);
+  background: #0dc00d;
+  box-shadow: 0px 0px 30px rgb(227, 241, 229);
   transition: 0.3s;
   border-radius: 4px;
 }
@@ -517,7 +516,7 @@ section {
 }
 
 .section-bg {
-  background-color: #3ae917;
+  background-color: #0c0e0c;
 }
 
 .section-title {
@@ -841,7 +840,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0 25px 0 rgba(14, 2, 2, 0.1);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
@@ -864,7 +863,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #0edd1f;
+  color: #d4e0d5;
   transition: ease-in-out 0.3s;
 }
 
@@ -1199,10 +1198,10 @@ section {
 
 .pricing .box {
   padding: 60px 40px;
-  box-shadow: 0 3px 20px -2px rgba(20, 45, 100, 0.1);
+  box-shadow: 0 3px 20px -2px rgba(231, 234, 240, 0.1);
   background: #fff;
   height: 100%;
-  border-top: 4px solid #0e0c0c;
+  border-top: 4px solid #0cd427;
   border-radius: 5px;
 }
 
