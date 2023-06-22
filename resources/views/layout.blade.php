@@ -52,8 +52,8 @@
           <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
           <li><a class="nav-link scrollto" href="#about">A propos</a></li>
           <li><a class="nav-link scrollto" href="#services">Prestation deServices</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Portefeuille</a></li>
-          <li><a class="nav-link scrollto" href="#team">Equipe</a></li>
+          
+      
           <li class="dropdown"><a href="#"><span>Menu deroulant</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">LIste deroulant 1</a></li>
@@ -820,7 +820,11 @@
     </div>
   </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
+
+
+
+        
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
