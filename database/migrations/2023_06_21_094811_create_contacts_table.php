@@ -23,7 +23,7 @@ class CreateContactsTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
+     * @return void 
      */
     public function down()
     {

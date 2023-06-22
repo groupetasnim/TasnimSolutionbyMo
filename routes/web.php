@@ -20,6 +20,3 @@ Route::get('/', function () {
 
 
 Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact_store');
-
-
-

@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #151615;
+  color: #24e624;
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #121412;
+  color: #ee7e16;
   text-decoration: none;
 }
 
@@ -52,9 +52,9 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #f4f7fa;
+  border: 6px solid #0e0f0f;
   border-top-color: #ec0606;
-  border-bottom-color: #f0e4e4;
+  border-bottom-color: #16e46c;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -115,7 +115,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(2, 5, 8, 0.9);
+  background: rgba(235, 79, 18, 0.9);
 }
 
 #header .logo {
