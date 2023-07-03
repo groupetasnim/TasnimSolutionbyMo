@@ -354,7 +354,7 @@ h6 {
   opacity: 1;
   visibility: visible;
   background: #080202;
-  box-shadow: 0px 0px 30px rgba(236, 14, 188, 0.25);
+  box-shadow: 0px 0px 30px rgba(241, 235, 240, 0.925);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -401,7 +401,7 @@ h6 {
 }
 
 #hero h2 {
-  color: rgba(14, 12, 12, 0);
+  color: rgba(5, 4, 4, 0.959);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -516,7 +516,7 @@ section {
 }
 
 .section-bg {
-  background-color: #0c0e0c;
+  background-color: #070606;
 }
 
 .section-title {
@@ -729,7 +729,7 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #343a40;
+  color: #000000;
 }
 
 .why-us .accordion-list a.collapsed:hover {
@@ -779,7 +779,7 @@ section {
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #37517e;
+  color: #080808;
   font-family: "Poppins", sans-serif;
 }
 
@@ -840,7 +840,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  box-shadow: 0px 0 25px 0 rgba(14, 2, 2, 0.1);
+  box-shadow: 0px 0 25px 0 rgba(14, 2, 2, 0.884);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #fff;
@@ -878,14 +878,14 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #19da19;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(239, 241, 245, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(239, 241, 245, 0.9), rgba(5, 5, 5, 0.993)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1480,7 +1480,7 @@ section {
   border-bottom: 3px solid #0d0d0e;
   padding: 30px;
   background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgb(0, 0, 0);
 }
 
 .contact .php-email-form .form-group {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContactUsFormController;
+use App\Http\Controllers\ContactUsFormController\StudentController;;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +17,10 @@ use App\Http\Controllers\ContactUsFormController;
 Route::get('/', function () {
     return view('layout');
 });
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
 
-
-Route::post('/contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact_store');
+Route::post('/Contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact_store');
+Route::get('/view-students', [StudentController::class, 'usersList']);
+Route::post('/delete-student/{id}', [StudentController::class, 'removeUser']);

@@ -55,7 +55,7 @@
           
       
           
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="{{ route('contact') }} ">Contact</a></li>
           <li><a class="getstarted scrollto" href="#about">Commencer</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -168,37 +168,7 @@
               </p>
             </div>
 
-            <div class="accordion-list">
-              <ul>
-                <li>
-                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
-                    <p>
-                      
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                     
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
-                    <p>
-                      
-                    </p>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
+            
 
           </div>
 
@@ -272,7 +242,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4><a href="">Developpement web et mobile</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p>Sites Web et Applications Mobiles</p>
             </div>
           </div>
 
@@ -280,7 +250,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Marketing DIgital</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>mettre en place une stratégie pour optimiser la visibilité du site web de son entreprise sur d'autres supports digitaux</p>
             </div>
           </div>
 
@@ -288,7 +258,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4><a href="">Design Web</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>concevoir et réaliser l'identité visuelle d'un site internet</p>
             </div>
           </div>
 
@@ -296,7 +266,9 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               <h4><a href="">Maintenance infomatique et Community manager</a></h4>
-              
+              <p>le fait d'entretenir le parc informatique pour assurer son bon fonctionnement</p>
+
+              <p>créer et d'animer des communautés dans le but de développer les relations avec ses publics</p>
           </div>
 
         </div>
@@ -544,7 +516,7 @@
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
-                <div class="error-message"></div>
+                
                 <div class="sent-message">Votre message a été envoyé. Merci!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
@@ -632,9 +604,9 @@
       <div class="copyright">
         &copy; Copyright2023byMO <strong><span>TasnimSolution</span></strong>. All Rights Reserved
       </div>
-     
+    
   </footer><!-- End Footer -->
-  <div id="preloader"></div>
+  
   <!-- <div id="preloader"></div> -->
 
 
