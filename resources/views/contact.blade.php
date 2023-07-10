@@ -56,7 +56,7 @@
           
       
           
-          <li><a class="nav-link scrollto" href="{{ route('contact') }} ">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="#about">Commencer</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

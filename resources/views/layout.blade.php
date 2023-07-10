@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en,fr">
+<html lang="fr, en">
 
 <head>
   <meta charset="utf-8">
@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/tas.png" rel="icon">
+  <link href="assets/img/tas.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -50,13 +50,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
-          <li><a class="nav-link scrollto" href="#about">A propos</a></li>
-          <li><a class="nav-link scrollto" href="#services">Prestation deServices</a></li>
-          
-      
-          
-          <li><a class="nav-link scrollto" href="{{ route('contact') }} ">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Commencer</a></li>
+          <li><a class="nav-link scrollto" href="#about">Qui sommes nous ? </a></li>
+          <li><a class="nav-link scrollto" href="#services">Nos services </a></li>
+          <li><a class="nav-link scrollto" href="#contact ">Contactez-nous </a></li>
+          <li><a class="getstarted scrollto" href="#about">Contactez-nous </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,7 +70,7 @@
           <h1>De meilleur solution pour vous et votre Entreprise </h1>
           
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#contact" class="btn-get-started scrollto">Contactez-Nous</a>
             
           </div>
         </div>
@@ -88,37 +85,7 @@
   <main id="main">
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
+    
       </div>
     </section><!-- End Cliens Section -->
 
@@ -127,26 +94,27 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>A PROPOS</h2>
         </div>
 
         <div class="row content">
           <div class="col-lg-6">
             <p>
-              Toutes les branchr de l'Informatique
+              Toutes les branches de l'Informatique
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> marketing Digital</li>
-              <li><i class="ri-check-double-line"></i> Design Web</li>
+              <li><i class="ri-check-double-line"></i> formation Informatique </li>
               <li><i class="ri-check-double-line"></i> Maintenance Informatique</li>
+              <li><i class="ri-check-double-line"></i> conception web et Mobile </li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
               Nous vous donnons la possibilte de choisir votre formations même sans diplôme.
-              juste votre courage et votre volonté !
+              Juste votre courage et votre volonté !
             </p>
-            <a href="#" class="btn-learn-more">Learn More</a>
+            <a href="#about" class="btn-learn-more">Apprendre encore plus</a>
           </div>
         </div>
 
@@ -162,9 +130,10 @@
           <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content">
-              <h3>courage,force <strong>mativation</strong></h3>
-              <p>
-                
+             
+              <h3>Bienvenue chez Tasnim Solution ! </h3>
+              <p> 
+                Besoin d'un site web ou d'une application mobile ? Désireux d'optimiser votre marketing digital ? Problèmes de maintenance informatique ? Ou envie de vous former en informatique ? Contactez Tasnim Solution dès maintenant pour des solutions sur mesure et une expertise de qualité. Transformons vos idées en réalité dès aujourd'hui !
               </p>
             </div>
 
@@ -193,28 +162,28 @@
             <div class="skills-content">
 
               <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
+                <span class="skill">Laravel  <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
+                <span class="skill">Flutter <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <span class="skill">Marketing digital <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <span class="skill">Maintenance informatique<i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -233,7 +202,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
+          <h2>Nos Services</h2>
           <p>Nous vous proposons de vous faire former nos specialités</p>
         </div>
 
@@ -241,7 +210,8 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Developpement web et mobile</a></h4>
+              <div class="portfolio-img"><img src="assets/img/portfolio/dev web.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="">Conception de sites web et applications mobiles </a></h4>
               <p>Sites Web et Applications Mobiles</p>
             </div>
           </div>
@@ -249,6 +219,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
+              <div class="portfolio-img"><img src="assets/img/portfolio/Le-marketing-digital.jpg.jpeg" class="img-fluid" alt=""></div>
               <h4><a href="">Marketing DIgital</a></h4>
               <p>mettre en place une stratégie pour optimiser la visibilité du site web de son entreprise sur d'autres supports digitaux</p>
             </div>
@@ -257,7 +228,8 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Design Web</a></h4>
+              <div class="portfolio-img"><img src="assets/img/portfolio/MI.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="">Maintenance informatique </a></h4>
               <p>concevoir et réaliser l'identité visuelle d'un site internet</p>
             </div>
           </div>
@@ -265,10 +237,11 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Maintenance infomatique et Community manager</a></h4>
-              <p>le fait d'entretenir le parc informatique pour assurer son bon fonctionnement</p>
+              <div class="portfolio-img"><img src="assets/img/portfolio/FI.jpg" class="img-fluid" alt=""></div>
+              <h4><a href="">Formation infomatique</a></h4>
+              <p></p>
 
-              <p>créer et d'animer des communautés dans le but de développer les relations avec ses publics</p>
+              <p></p>
           </div>
 
         </div>
@@ -282,74 +255,23 @@
 
         <div class="row">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3>Call To Action</h3>
+            <h3><br>Besoin d'un site web ou d'une application mobile ?</br> 
+            <br>Désireux d'optimiser votre marketing digital ?</br> 
+            <br>Problèmes de maintenance informatique ? </br>
+            <br>Envie de vous former en informatique ? </br>
+            <br>Contactez Tasnim Solution dès maintenant pour des solutions sur mesure et une expertise de qualité. </br>
+            <br>Nous transformons vos idées en réalité dès aujourd'hui ! </br></h3>
             
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#contact">Contactez-Nous</a>
           </div>
         </div>
 
       </div>
     </section><!-- End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          
-          <p>Tasnim Solution</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          
-          
-          <li data-filter=".filter-card">Card</li>
-          
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-         
-
-          
-
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/dev web.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Development web et mobile</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/Maintenance-informatique-materiel-et-donnees.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          
-          </div>
-
-          
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/community-manager.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>community-manager</h4>
-              <p>Card</p>
-             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/design.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>design Web</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/design.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+   
 
           
     </section><!-- End Portfolio Section -->
@@ -362,7 +284,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Pricing</h2>
+          <h2>Prix</h2>
           <p>developpement</p>
         </div>
 
@@ -374,7 +296,7 @@
               <h4><sup>$</sup>0<span>per month</span></h4>
               <ul>
                 
-              <a href="#" class="buy-btn">Get Started</a>
+              <a href="#contact" class="buy-btn">Contacte-nous</a>
             </div>
           </div>
 
@@ -387,7 +309,7 @@
                 <li><i class="bx bx-check"></i> Une masse d'ultricies</li>
                 
               </ul>
-              <a href="#" class="buy-btn">Commencer</a>
+              <a href="#contact" class="buy-btn">Commencer</a>
             </div>
           </div>
 
@@ -396,7 +318,7 @@
               <h3>Developer Plan</h3>
               
               </ul>
-              <a href="#" class="buy-btn">Commencer</a>
+              <a href="#contact" class="buy-btn">Commencer</a>
             </div>
           </div>
 
@@ -411,44 +333,38 @@
 
         <div class="section-title">
           <h2>Questions fréquemment posées</h2>
-          <p>pour toute vos Questions, Veuillez nous contacter </p>
+          <p>Pour toutes vos Questions, Veuillez nous contacter </p>
         </div>
 
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Qu'est ce que Tasnim Solution ?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-               
+              <p>
+              Tasnim Solution est l’une des branches de Tasnim Groupe, qui permet de former des étudiants dans le domaine du Développement web/Mobile, Maintenance d’ordinateur, du Marketing Digital, Formation Infortique
+                </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Où êtes situés ?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                
+              <p>
+              Où êtes situés ?
+                </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Quels sont vos tarifs ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+              <p>
               
+                </p>
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                
-              </div>
             </li>
 
           </ul>
@@ -462,7 +378,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2>Contactez-nous </h2>
          
         </div>
 
@@ -472,23 +388,23 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p><h5>COTE D'IVOIR, Abidjan, angre Star 8</h5></p>
+                <h4>Localisation:</h4>
+                <p><h5>Côte D'Ivoire, Abidjan, Angré Star 8, Petro Ivoire en bas</h5></p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
+                <h4>Mail:</h4>
                 <p><h5>info@tasnimsolution.com</h5></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h4>Téléphone:</h4>
                 <p><h5>+2250173001129</h5></p>
               </div>
 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3429.019856411064!2d-3.996030650150732!3d5.405195774211501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sci!4v1688725942546!5m2!1sen!2sci" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
             </div>
 
           </div>
@@ -498,16 +414,16 @@
               @csrf
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
+                  <label for="name">votre NOM</label>
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
+                  <label for="name">Votre Email</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
+                <label for="name">Sujet</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
               </div>
               <div class="form-group">
@@ -565,11 +481,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Liens utiles</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Accueil</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Qui Sommes Nous </a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Nos Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">contactez-Nous</a></li>
+              
             </ul>
           </div>
 
@@ -589,7 +505,7 @@
            
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#https://www.facebook.com/profile.php?id=100094571010358&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>

@@ -17,10 +17,19 @@ use App\Http\Controllers\ContactUsFormController\StudentController;;
 Route::get('/', function () {
     return view('layout');
 });
-Route::get('/contact', function () {
+/*Route::get('/contact', function () {
     return view('contact');
-})->name('contact');
+})->name('contact')*/;
 
 Route::post('/Contact', [ContactUsFormController::class, 'ContactUsForm'])->name('contact_store');
 Route::get('/view-students', [StudentController::class, 'usersList']);
 Route::post('/delete-student/{id}', [StudentController::class, 'removeUser']);
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
