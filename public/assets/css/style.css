@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #16ee4c;
+  color: #0d0e0d;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #12e424;
+  background: #121312;
   color: #fff;
 }
 
@@ -401,7 +401,7 @@ h6 {
 }
 
 #hero h2 {
-  color: rgba(5, 4, 4, 0.959);
+  color: rgba(245, 239, 239, 0.959);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -417,11 +417,11 @@ h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #f3ebeb;
-  background: #0d0e0d;
+  background: #16db16;
 }
 
 #hero .btn-get-started:hover {
-  background: #11db32;
+  background: #050505;
 }
 
 #hero .btn-watch-video {
@@ -443,7 +443,7 @@ h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #28f715;
+  color: #141414;
 }
 
 #hero .animated {
@@ -522,6 +522,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  color: #0f0f0f;
 }
 
 .section-title h2 {
@@ -558,6 +559,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color: #0f0f0f;
 }
 
 /*--------------------------------------------------------------
@@ -592,21 +594,25 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
+  
   font-size: 26px;
 }
 
 .about .content ul {
   list-style: none;
+  
   padding: 0;
 }
 
 .about .content ul li {
   padding-left: 28px;
+  color: #030303;
   position: relative;
 }
 
 .about .content ul li+li {
   margin-top: 10px;
+  color: #030303;
 }
 
 .about .content ul i {
@@ -620,6 +626,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  
 }
 
 .about .content .btn-learn-more {
@@ -635,11 +642,11 @@ section {
   color: #0f0f0f;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #19df3a;
+  border: 2px solid #0df330;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #f8f4f2;
+  background: #25e90b;
   color: #080808;
   text-decoration: none;
 }
@@ -729,11 +736,11 @@ section {
 }
 
 .why-us .accordion-list a.collapsed {
-  color: #000000;
+  color: #0f0f0f;
 }
 
 .why-us .accordion-list a.collapsed:hover {
-  color: #0e0d0d;
+  color: #0d0e0d;
 }
 
 .why-us .accordion-list a.collapsed .icon-show {
@@ -843,7 +850,7 @@ section {
   box-shadow: 0px 0 25px 0 rgba(14, 2, 2, 0.884);
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
-  background: #fff;
+  background: #ffffff;
 }
 
 .services .icon-box .icon {
@@ -869,6 +876,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
+  color: #0d0e0d;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -878,8 +886,9 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: #0b0c0b;
+  color: #0af129;
 }
+
 
 /*--------------------------------------------------------------
 # Cta
@@ -911,7 +920,7 @@ section {
   transition: 0.5s;
   margin: 10px;
   border: 2px solid #0c0c0c;
-  color: #fff;
+  color: #ffffff;
 }
 
 .cta .cta-btn:hover {
@@ -1333,7 +1342,7 @@ section {
 
 .faq .faq-list li {
   padding: 20px;
-  background: #fff;
+  background: #f3e9e9;
   border-radius: 4px;
   position: relative;
 }
@@ -1355,7 +1364,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #e8f1f5;
+  color: #080c0e;
 }
 
 .faq .faq-list .icon-show,
@@ -1376,12 +1385,12 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #ebf0f8;
+  color: #080808;
   transition: 0.3s;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #60ec29;
+  color: #10110f;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1593,7 +1602,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #4beb23;
+  background: #111111;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1754,7 +1763,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #23df71;
+  color: #e1f1e8;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1762,14 +1771,14 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #10e021;
+  color: #eff3f0;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #f3f8fa;
-  color: #2bc4445e;
+  color: #1a1919f5;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1782,7 +1791,7 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #f3f7f8;
-  color: #e79d2fa9;
+  color: #080808a9;
   text-decoration: none;
 }
 

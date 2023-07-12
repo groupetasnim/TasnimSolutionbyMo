@@ -67,7 +67,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>De meilleur solution pour vous et votre Entreprise </h1>
+          <h1>Une meilleure solution pour vous et votre Entreprise </h1>
           
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#contact" class="btn-get-started scrollto">Contactez-Nous</a>
@@ -210,7 +210,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <div class="portfolio-img"><img src="assets/img/portfolio/dev web.jpg" class="img-fluid" alt=""></div>
+              
               <h4><a href="">Conception de sites web et applications mobiles </a></h4>
               <p>Sites Web et Applications Mobiles</p>
             </div>
@@ -219,7 +219,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <div class="portfolio-img"><img src="assets/img/portfolio/Le-marketing-digital.jpg.jpeg" class="img-fluid" alt=""></div>
+              
               <h4><a href="">Marketing DIgital</a></h4>
               <p>mettre en place une stratégie pour optimiser la visibilité du site web de son entreprise sur d'autres supports digitaux</p>
             </div>
@@ -228,7 +228,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <div class="portfolio-img"><img src="assets/img/portfolio/MI.jpg" class="img-fluid" alt=""></div>
+              
               <h4><a href="">Maintenance informatique </a></h4>
               <p>concevoir et réaliser l'identité visuelle d'un site internet</p>
             </div>
@@ -237,7 +237,7 @@
           <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
-              <div class="portfolio-img"><img src="assets/img/portfolio/FI.jpg" class="img-fluid" alt=""></div>
+              
               <h4><a href="">Formation infomatique</a></h4>
               <p></p>
 
@@ -270,62 +270,6 @@
 
       </div>
     </section><!-- End Cta Section -->
-
-   
-
-          
-    </section><!-- End Portfolio Section -->
-
-    
-    </section><!-- End Team Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Prix</h2>
-          <p>developpement</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Free Plan</h3>
-              <h4><sup>$</sup>0<span>per month</span></h4>
-              <ul>
-                
-              <a href="#contact" class="buy-btn">Contacte-nous</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-             
-                <li><i class="bx bx-check"></i> Quel coaching de vie</li>
-                <li><i class="bx bx-check"></i> Même pas le prix </li>
-                <li><i class="bx bx-check"></i> Personne n'utiliserait la cour le week-end</li>
-                <li><i class="bx bx-check"></i> Une masse d'ultricies</li>
-                
-              </ul>
-              <a href="#contact" class="buy-btn">Commencer</a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Developer Plan</h3>
-              
-              </ul>
-              <a href="#contact" class="buy-btn">Commencer</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
@@ -360,7 +304,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Quels sont vos tarifs ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
               <p>
-              
+              Veuillez nous contacter pour vos différents tarifs 
                 </p>
               </div>
             </li>
@@ -398,7 +342,7 @@
                 <p><h5>info@tasnimsolution.com</h5></p>
               </div>
 
-              <div class="phone">
+              <div class="téléphone">
                 <i class="bi bi-phone"></i>
                 <h4>Téléphone:</h4>
                 <p><h5>+2250173001129</h5></p>
@@ -449,19 +393,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            
-            
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+    
 
     <div class="footer-top">
       <div class="container">
@@ -473,7 +405,7 @@
               Mo <br>
               Abidjan, star 8<br>
               Cote d'Ivoire <br><br>
-              <strong>Phone:</strong> +2250173001129<br>
+              <strong>Téléphone:</strong> +2250173001129<br>
               <strong>Email:</strong> info@tasnimsolution.com<br>
             </p>
           </div>
@@ -489,26 +421,17 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Nos réseaux sociaux</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+          
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Nos réseaux sociaux</h4>
            
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#https://www.facebook.com/profile.php?id=100094571010358&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            
+              <a href="https://www.facebook.com/profile.php?id=100094571010358&mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+              
+              
+              <a href="https://www.linkedin.com/company/94819944/admin/feed/posts/?feedType=following" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
@@ -518,7 +441,7 @@
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
-        &copy; Copyright2023byMO <strong><span>TasnimSolution</span></strong>. All Rights Reserved
+        &copy; Copyright2023 <strong><span>TasnimSolution</span></strong>. All Rights Reserved
       </div>
     
   </footer><!-- End Footer -->
