@@ -45,7 +45,7 @@
 
       <h1 class="logo me-auto"><a href="index.html">TAsnim Solutions</a></h1>
       <!-- Uncomment below if you prefer to use an image tas -->
-      <!-- <a href="index.html" class="tas me-auto"><img src="assets/img/tas.png" alt="" class="img-fluid"></a>-->
+       <a href="index.html" class="tas me-auto"><img src="assets/img/tas.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -103,10 +103,10 @@
               Toutes les branches de l'Informatique
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> marketing Digital</li>
-              <li><i class="ri-check-double-line"></i> formation Informatique </li>
+              <li><i class="ri-check-double-line"></i> Marketing Digital</li>
+              <li><i class="ri-check-double-line"></i> Formation Informatique </li>
               <li><i class="ri-check-double-line"></i> Maintenance Informatique</li>
-              <li><i class="ri-check-double-line"></i> conception web et Mobile </li>
+              <li><i class="ri-check-double-line"></i> Conception web et Mobile </li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
@@ -114,7 +114,7 @@
               Nous vous donnons la possibilte de choisir votre formations même sans diplôme.
               Juste votre courage et votre volonté !
             </p>
-            <a href="#about" class="btn-learn-more">Apprendre encore plus</a>
+            <a href="#about" class="btn-learn-more">En savoir plus</a>
           </div>
         </div>
 
