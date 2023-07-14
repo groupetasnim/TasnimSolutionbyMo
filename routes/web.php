@@ -33,3 +33,20 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+Route::get('/{lang?}', function ($lang = null) {
+
+    if (isset($lang) && in_array($lang, config('fallback_locale'))) {
+        app()->setLocale($translatable);
+    }
+
+    return view('welcome');
+});
+Route::get('langue/{lang}', function ($lang) {
+    app()->setLocale($lang);
+    session()->put('locale', $lang);
+
+    return redirect()->back();
+});
+Route::get('/', function () {
+    return view('layout');
+});
