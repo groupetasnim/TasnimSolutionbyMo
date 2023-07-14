@@ -45,7 +45,7 @@
 
       <h1 class="logo me-auto"><a href="index.html">TAsnim Solutions</a></h1>
       <!-- Uncomment below if you prefer to use an image tas -->
-       <a href="index.html" class="tas me-auto"><img src="assets/img/tas.png" alt="" class="img-fluid"></a>
+      <!-- <a href="index.html" class="tas me-auto"><img src="assets/img/tas.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
