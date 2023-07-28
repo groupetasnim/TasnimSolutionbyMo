@@ -54,6 +54,18 @@
           <li><a class="nav-link scrollto" href="#services">Nos services </a></li>
           <li><a class="nav-link scrollto" href="#contact ">Contactez-nous </a></li>
           <li><a class="getstarted scrollto" href="#about">Contactez-nous </a></li>
+          <!--@if (Route::has('login'))
+    <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+        @auth
+            <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 underline">Dashboard</a>
+        @else
+            <a href="{{ route('login') }}" class="text-sm text-gray-700 underline">Login</a>
+            @if (Route::has('register'))
+                <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
+            @endif
+        @endif
+    </div>
+@endif -->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -99,6 +111,7 @@
 
         <div class="row content">
           <div class="col-lg-6">
+            <class= "black">
             <p>
               Toutes les branches de l'Informatique
             </p>
@@ -110,8 +123,9 @@
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
+            
             <p>
-              Nous vous donnons la possibilte de choisir votre formations même sans diplôme.
+              Nous vous donnons aussi la possibilité de choisir votre formations même sans diplôme.
               Juste votre courage et votre volonté !
             </p>
             <a href="#about" class="btn-learn-more">En savoir plus</a>
@@ -171,21 +185,21 @@
               <div class="progress">
                 <span class="skill">Flutter <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Marketing digital <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
                 <span class="skill">Maintenance informatique<i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
@@ -203,7 +217,7 @@
 
         <div class="section-title">
           <h2>Nos Services</h2>
-          <p>Nous vous proposons de vous faire former nos specialités</p>
+          <p></p>
         </div>
 
         <div class="row">
@@ -211,8 +225,13 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               
-              <h4><a href="">Conception de sites web et applications mobiles </a></h4>
-              <p>Sites Web et Applications Mobiles</p>
+              <h3><a href="">Sites web et applications </a></h3>
+              <p><br>Nous concevons des sites web et des applications mobiles attrayants et conviviaux.</br>
+
+
+
+
+</p>
             </div>
           </div>
 
@@ -220,8 +239,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               
-              <h4><a href="">Marketing DIgital</a></h4>
-              <p>mettre en place une stratégie pour optimiser la visibilité du site web de son entreprise sur d'autres supports digitaux</p>
+              <h3><a href="">Marketing DIgital</a></h3>
+              <p>Nous mettons en place une stratégie pour optimiser la visibilité de votre entreprise sur internet.</p>
             </div>
           </div>
 
@@ -229,8 +248,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               
-              <h4><a href="">Maintenance informatique </a></h4>
-              <p>concevoir et réaliser l'identité visuelle d'un site internet</p>
+              <h3><a href="">Maintenance informatique </a></h3>
+              <p>Nous concevons et réalisons l'identité visuelle de votre entreprise sur internet.</p>
             </div>
           </div>
 
@@ -238,8 +257,8 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-layer"></i></div>
               
-              <h4><a href="">Formation infomatique</a></h4>
-              <p></p>
+              <h3><a href="">Formation infomatique</a></h3>
+              <p> Boostez vos compétences avec nos formations complètes en Informatique.</p>
 
               <p></p>
           </div>
@@ -295,7 +314,7 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Où êtes situés ?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
               <p>
-              Où êtes situés ?
+              Côte D'Ivoire, Abidjan, Angré Star 8, Petro Ivoire en bas
                 </p>
               </div>
             </li>
@@ -464,6 +483,7 @@
 
   <!-- Template Main JS File -->
   <script src=" {{ asset('assets/js/main.js')  }}"></script>
+  <h1>{{ __('messages.welcome') }}</h1>
 
 </body>
 

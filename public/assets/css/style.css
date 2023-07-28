@@ -672,7 +672,7 @@ section {
 
 .why-us .content p {
   font-size: 15px;
-  color: #020107;
+  color: #f1eff8;
 }
 
 .why-us .img {
@@ -858,7 +858,7 @@ section {
 }
 
 .services .icon-box .icon i {
-  color: #0c0c0c;
+  color: #3cc201;
   font-size: 36px;
   transition: 0.3s;
 }
@@ -869,7 +869,7 @@ section {
   font-size: 24px;
 }
 
-.services .icon-box h4 a {
+.services .icon-box h3 a {
   color: #3cc201;
   transition: ease-in-out 0.3s;
 }
@@ -1333,11 +1333,13 @@ section {
 
 .faq .faq-list ul {
   padding: 0;
+  
   list-style: none;
 }
 
 .faq .faq-list li+li {
   margin-top: 15px;
+  color:#f3e9e9;
 }
 
 .faq .faq-list li {
@@ -1377,6 +1379,7 @@ section {
 
 .faq .faq-list p {
   margin-bottom: 0;
+  color: #080c0e;
   padding: 10px 0 0 0;
 }
 
@@ -1829,4 +1832,8 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+  .black  {
+    color:black ;
+  }
 }
+

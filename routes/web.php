@@ -35,11 +35,11 @@ Route::middleware([
 });
 Route::get('/{lang?}', function ($lang = null) {
 
-    if (isset($lang) && in_array($lang, config('fallback_locale'))) {
+    if (isset($en) && in_array($en, config('fallback_locale'))) {
         app()->setLocale($translatable);
     }
 
-    return view('welcome');
+    return view('layout');
 });
 Route::get('langue/{lang}', function ($lang) {
     app()->setLocale($lang);

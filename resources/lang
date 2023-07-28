@@ -1,0 +1,12 @@
+<?php
+// resources/lang/en/messages.php
+return [
+    'welcome' => 'Welcome to our website!',
+    // Autres traductions en anglais...
+];
+
+// resources/lang/fr/messages.php
+return [
+    'welcome' => 'Bienvenue sur notre site web!',
+    // Autres traductions en français...
+];

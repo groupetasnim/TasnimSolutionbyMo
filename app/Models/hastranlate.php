@@ -16,9 +16,9 @@ class NewsItem extends Model
 }
 $newsItem = new NewsItem(); // This is an Eloquent model
 $newsItem
-   ->setTranslation('name', 'en', 'Name in English')
-   ->setTranslation('name', 'nl', 'Naam in het Nederlands')
-   ->setTranslation('name', 'fr', 'Naam in het français')
+   ->setTranslation('body', 'en', 'Name in English')
+   ->setTranslation('bady', 'nl', 'Naam in het Nederlands')
+   ->setTranslation('body', 'fr', 'Naam in het français')
    ->save();
 
 $newsItem->name; // Returns 'Name in English' given that the current app locale is 'en'
